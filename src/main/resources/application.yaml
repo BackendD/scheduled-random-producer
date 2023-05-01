@@ -1,0 +1,11 @@
+camel:
+  springboot.main-run-controller: true
+  component.kafka.brokers: localhost:9092
+
+kafka:
+  topic: "random-number"
+  producer.period: "1s"
+  consumer.period: "6s"
+
+random-number:
+  bound: 100
