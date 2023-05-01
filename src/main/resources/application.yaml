@@ -4,8 +4,8 @@ camel:
 
 kafka:
   topic: "random-number"
-  producer.period: "1s"
-  consumer.period: "6s"
+  producer.period: "10s"
+  consumer.period: "60s"
 
 random-number:
   bound: 100
